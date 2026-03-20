@@ -1,7 +1,7 @@
 # Medical Center Management System (Java + Spring Boot + MySQL)
 
 A full-stack **Web-based Medical Center Management System** built using **Spring Boot and MySQL**.  
-This project was developed as part of an academic assignment to demonstrate understanding of:
+This project was developed as part of an Internship assignment to demonstrate understanding of:
 - Java Spring Boot framework
 - MVC (Model-View-Controller) architecture
 - JDBC database connectivity
@@ -162,7 +162,7 @@ Student views prescription history
 
 ---
 
-## Module Screenshots
+## Modules
 
 ### Login Page
 - All roles use the same login page
@@ -210,22 +210,10 @@ Login as Student (2007331039 / mokarrom)
 
 ---
 
-## Original vs Converted
-
-| Original Project | Converted Project |
-|---|---|
-| Java Servlets | Spring Boot Controllers |
-| Tomcat (external) | Embedded Tomcat (Spring Boot) |
-| `web.xml` mappings | `@RequestMapping` annotations |
-| Raw JDBC | Spring `JdbcTemplate` |
-| NetBeans IDE | VS Code |
-| Manual deployment | `mvn spring-boot:run` |
-
----
 
 ## Learning Outcomes
 
-- Migrated a legacy Java Servlet project to Spring Boot
+
 - Implemented role-based authentication using HTTP sessions
 - Used Spring MVC controllers to handle all request mappings
 - Connected MySQL database using Spring JdbcTemplate
